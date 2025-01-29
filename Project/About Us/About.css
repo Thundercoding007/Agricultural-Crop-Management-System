@@ -1,0 +1,91 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Title Styling */
+.page-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.parallax {
+    height: 500px; /* Adjust height as needed */
+    background-image: url('About\ Us\ bg.jpg'); /* Your background image */
+    background-attachment: fixed; /* Fixed attachment for parallax effect */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent repetition */
+    background-size: cover; /* Cover the entire area */
+    position: relative;
+    z-index: -1; /* Send it to the back */
+}
+
+/* Left Side Introduction Styling */
+.about-us-intro {
+    max-width: 100%; /* Full width */
+    margin: -200px auto 50px; /* Move it upwards */
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.about-us-intro h2 {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-us-intro p {
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+/* Team Section Styling */
+.team-section {
+    padding: 50px;
+    background-color: white;
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.team-member {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Photo Styling */
+.team-photo {
+    margin-bottom: 15px;
+}
+
+.team-img {
+    width: 100px; /* Set the desired width */
+    height: 100px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add slight curvature to the corners */
+}
+
+.team-member h3 {
+    color: #2c3e50;
+    font-size: 1.5em;
+}
+
+.team-member p {
+    font-size: 1em;
+    color: #000000;
+}
